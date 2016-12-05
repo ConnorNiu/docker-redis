@@ -1,4 +1,4 @@
-FROM mongo:3.0.14
+FROM redis:3.2.5-alpine
 
 
 # Maintainer
