@@ -1,7 +1,7 @@
-# redis
+# Docker Image packaging for Redis
 
 
-基础镜像 Base Image
+基于官方镜像 Based Official Image
 
 ```bash
     redis:3.2.11-alpine
