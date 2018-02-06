@@ -1,6 +1,8 @@
 # redis
 
+
 基础镜像 Base Image
+
 ```bash
     redis:3.2.11-alpine
 ```
