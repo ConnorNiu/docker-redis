@@ -1,4 +1,4 @@
-FROM redis:3.2.5-alpine
+FROM redis:3.2.11-alpine
 
 RUN apk add --update bash
 
