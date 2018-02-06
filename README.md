@@ -6,11 +6,13 @@
 ```
 
 
+
 官网 Docker
 
 ```bash
     docker pull songshenzong/redis
 ```
+
 
 
 阿里云公网 Alibaba Cloud Internet
@@ -20,11 +22,14 @@
 ```
 
 
+
 阿里云经典内网 Alibaba Cloud Intranet
 
 ```bash
     docker pull registry-internal.cn-beijing.aliyuncs.com/songshenzong/redis
 ```
+
+
 
 阿里云VPC网络 Alibaba Cloud VPC Network
 
