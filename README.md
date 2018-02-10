@@ -4,7 +4,7 @@
 基于官方镜像 Based Official Image
 
 ```bash
-redis:3.2.11-alpine
+redis:alpine
 ```
 
 
