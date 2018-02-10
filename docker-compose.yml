@@ -1,0 +1,16 @@
+version: '3.1'
+
+services:
+  redis:
+    image: songshenzong/redis
+    ports:
+      - "6379:6379"
+    environment:
+        REDIS_PASS_FILE: 'passss'
+    command: [
+      "bash", "-c",
+      '
+       docker-entrypoint.sh
+       --requirepass "$$REDIS_PASS_FILE"
+      '
+    ]
